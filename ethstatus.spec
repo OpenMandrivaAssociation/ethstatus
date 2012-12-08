@@ -32,3 +32,10 @@ install -Dp -m 0644 %{name}.1 %{buildroot}%{_mandir}/man1/%{name}.1
 %doc CHANGELOG COPYRIGHT README THANKS
 %{_mandir}/man*/%{name}*.*
 %{_bindir}/%{name}
+
+
+%changelog
+* Thu Feb 09 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.4.3-1
++ Revision: 772244
+- imported package ethstatus
+
