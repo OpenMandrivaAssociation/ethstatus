@@ -1,0 +1,14 @@
+diff -urN ethstatus-0.4.3/Makefile ethstatus-0.4.3-patched/Makefile
+--- ethstatus-0.4.3/Makefile	2006-10-20 09:10:08.000000000 +1100
++++ ethstatus-0.4.3-patched/Makefile	2013-03-30 10:49:58.101497929 +1100
+@@ -3,9 +3,7 @@
+ # Edited for Debian GNU/Linux.
+ DESTDIR =
+ 
+-LDFLAGS = -lncurses
+-CFLAGS = -O2 -Wall
+-#CFLAGS = -Wall -g
++LDFLAGS = -lncurses
+ 
+ BIN = ethstatus
+ SRC = ethstatus.c
