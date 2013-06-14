@@ -1,7 +1,7 @@
 Summary:	Console-based ethernet statistics monitor
 Name:		ethstatus
 Version:	0.4.3
-Release:	1
+Release:	2
 Group:		Monitoring
 License:	GPLv2+
 Url:		http://packages.debian.org/stable/net/ethstatus
@@ -18,10 +18,11 @@ interface.
 %prep
 %setup -q
 %apply_patches
+sed -i 's/gcc/$(CC)/g' Makefile
 
 %build
 %setup_compile_flags
-%make
+%make CC=%{__cc}
 
 %install
 install -Dp -m 0755 %{name} %{buildroot}%{_bindir}/%{name}
