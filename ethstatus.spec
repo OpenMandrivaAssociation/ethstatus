@@ -1,7 +1,7 @@
 Summary:	Console-based ethernet statistics monitor
 Name:		ethstatus
 Version:	0.4.3
-Release:	6
+Release:	7
 Group:		Monitoring
 License:	GPLv2+
 Url:		http://packages.debian.org/stable/net/ethstatus
