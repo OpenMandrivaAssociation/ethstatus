@@ -1,11 +1,11 @@
 Summary:	Console-based ethernet statistics monitor
 Name:		ethstatus
-Version:	0.4.3
-Release:	11
+Version:	0.4.9
+Release:	1
 Group:		Monitoring
 License:	GPLv2+
 Url:		http://packages.debian.org/stable/net/ethstatus
-Source0:	http://ftp.de.debian.org/debian/pool/main/e/%{name}/%{name}_%{version}.tar.gz
+Source0:	http://ftp.de.debian.org/debian/pool/main/e/ethstatus/%{name}_%{version}.tar.xz
 Patch0:		ethstatus-0.4.3-flags.patch
 BuildRequires:	pkgconfig(ncurses)
 
@@ -32,4 +32,3 @@ install -Dp -m 0644 %{name}.1 %{buildroot}%{_mandir}/man1/%{name}.1
 %doc CHANGELOG COPYRIGHT README THANKS
 %{_mandir}/man*/%{name}*.*
 %{_bindir}/%{name}
-
