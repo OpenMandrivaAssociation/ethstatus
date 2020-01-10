@@ -17,7 +17,7 @@ interface.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 sed -i 's/gcc/$(CC)/g' Makefile
 
 %build
