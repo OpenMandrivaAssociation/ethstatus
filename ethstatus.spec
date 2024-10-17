@@ -4,7 +4,7 @@ Version:	0.4.3
 Release:	12
 Group:		Monitoring
 License:	GPLv2+
-Url:		http://packages.debian.org/stable/net/ethstatus
+Url:		https://packages.debian.org/stable/net/ethstatus
 Source0:	http://ftp.de.debian.org/debian/pool/main/e/%{name}/%{name}_%{version}.tar.gz
 Patch0:		ethstatus-0.4.3-flags.patch
 BuildRequires:	pkgconfig(ncurses)
