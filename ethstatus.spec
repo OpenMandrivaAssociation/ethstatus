@@ -7,6 +7,7 @@ License:	GPLv2+
 Url:		https://packages.debian.org/stable/net/ethstatus
 Source0:	http://ftp.de.debian.org/debian/pool/main/e/%{name}/%{name}_%{version}.tar.gz
 Patch0:		ethstatus-0.4.3-flags.patch
+BuildRequires:	make
 BuildRequires:	pkgconfig(ncurses)
 
 %description
